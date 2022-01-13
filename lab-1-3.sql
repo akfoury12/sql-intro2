@@ -8,4 +8,4 @@
 -- | 1875 | Keokuk Westerns      | 1    | 12     |
 -- +------+----------------------+------+--------+
 
-
+select year, name, wins, losses from teams ORDER BY wins limit 3;

@@ -10,3 +10,4 @@
 -- +------+-------------------+
 
 
+select year, name from teams where park="Guaranteed Rate Field" limit 3; 
